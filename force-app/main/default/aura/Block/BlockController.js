@@ -14,7 +14,6 @@
     scriptsLoaded: function (component, event, helper) {
         //Method definition goes here
         console.log("Loaded");
-        //$(".board-block").FluidFontType();
         fitText(component.getElement(".board-block"));
     }
 });
